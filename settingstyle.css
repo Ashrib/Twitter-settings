@@ -1,0 +1,168 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100vh);
+    background-color:white ;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 100px;
+    border-right: 1px solid rgb(233, 232, 232);
+}
+.bird{
+    display:block;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    
+    padding-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: #469aee;
+    border-radius: 100%;
+    
+}
+.bird:hover{
+    background-color: #d7f3f8;
+}
+.text{
+    margin-left: 10px;
+}
+.pages{
+    display: flex;
+    height: 50px;
+    width: auto;
+    margin-top: 5px;
+    border-radius:30px;
+    font-size: 1.4em;
+    padding: 10px;
+    padding-left: 20px;
+    text-align:left;
+    background-color: white;
+}
+div[class~=home]{
+    font-weight: 700;
+}
+.pages:hover{
+    background-color: rgb(205, 205, 206);
+}
+.tweet{
+    margin-top: 10px;
+    background-color: #20a3e0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+}
+.tweet:hover{
+    background-color: #1474d4;
+}
+.setting{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-right: 1px solid rgb(233, 232, 232);
+}
+h3{
+    font-weight: 600;
+    margin-left: 20px;
+}
+.h{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 1.6em;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.option{
+    height: auto;
+    width: 100%;
+    padding: 10px 10px 10px 15px;
+    cursor: pointer;
+}
+.option:hover{
+    background-color: rgb(218, 218, 218);
+}
+.option i{
+    float: right;
+}
+.allow{
+    font-size: 0.9em;
+    color: rgb(5, 7, 131);
+}
+.p{
+    height: auto;
+    width: 100%;
+    padding: 30px 10px 20px 15px;
+    
+}
+.change{
+    display: block;
+    width: 42%;
+    height: 100%;
+    background-color: white;
+    border-right: 1px solid rgb(233, 232, 232);
+}
+.bird{
+    display:inline-block;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    color:#20a3e0;
+    text-align: center;
+    border-radius: 100%;
+    
+}
+.bird:hover{
+    background-color: rgb(218, 218, 218);
+}
+.twitterdata{
+    display: none;
+}
+.addr p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 0.8em;
+}
+.addr{
+display: none;
+}
+.pdata h3{
+    display: inline;
+}
+.pdata p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 0.8em;
+}
+.pdata span{
+    display: block;
+}
+.pdata .p{
+    display: inline;
+    height: auto;
+    width: 100%;
+    padding: 0px 10px 20px 15px;   
+}
